@@ -1,0 +1,13 @@
+## [Título]
+- **Estado:** activa | completada | fallida | abandonada
+- **Dador:**
+- **Gancho:**
+- **Objetivo principal:**
+- **Objetivos secundarios:**
+- **Localización:**
+- **Obstáculos:**
+- **NPCs:**
+- **Recompensa:**
+- **Consecuencias:**
+- **Ganchos futuros:**
+- **Notas:**

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  "permission": {
+    "skill": "allow",
+    "read": "allow",
+    "edit": "ask",
+    "write": "ask",
+    "external_directory": "allow"
+  },
+
+  "instructions": [
+    "AGENTS.md"
+  ],
+
+  "references": {
+    "cyberpunk-memory": {
+      "path": "./memory",
+      "description": "Estado persistente de la partida de Cyberpunk Red (personaje, misiones, NPCs, lugares, facciones, inventario, mundo, bitácora). Fuente de verdad.",
+      "hidden": false
+    },
+    "cyberpunk-rules": {
+      "path": "./rules",
+      "description": "Resumen de reglas de Cyberpunk Red.",
+      "hidden": false
+    },
+    "cyberpunk-lore": {
+      "path": "./lore",
+      "description": "Lore del mundo: Night City, facciones, timeline.",
+      "hidden": false
+    }
+  }
+}
