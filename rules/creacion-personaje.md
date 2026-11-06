@@ -16,6 +16,7 @@ Presenta los 10 roles. El jugador elige. Cada rol tiene una habilidad especial.
 
 ### Paso 3: Stats
 - **62 puntos** para distribuir entre los 10 stats (min 2, max 8).
+- **Opción de personajes más poderosos:** 80 puntos para distribuir (min 2, max 8 por stat). Usar con acuerdo del GM.
 - Ningún stat puede ser menor de 2 ni mayor de 8.
 - Calcular derivados: HP = BODY × 5 + 10, Humanity = EMP × 10, Iniciativa = 1d10 + REF, Carga = BODY × 10 kg, Velocidad = MOVE × 2 m/turno.
 

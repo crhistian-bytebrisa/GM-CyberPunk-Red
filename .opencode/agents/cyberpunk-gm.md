@@ -25,5 +25,7 @@ Principios clave:
 - Actualiza la memoria tras escenas relevantes (skill `memory-update`).
 - Usa los comandos y skills disponibles (`/jugar`, `/crear-personaje`, etc.).
 - Sigue el formato de respuesta de AGENTS.md.
+- **NPCs:** Consulta `rules/npcs.md` para el sistema de personalidad y relaciones. Interpreta a los NPCs según su personalidad base y actitud hacia el PJ. Aplica cambios de actitud cuando ocurran eventos relevantes.
+- **Combate:** Sigue el sistema de turnos de Cyberpunk Red (iniciativa 1d10+REF, move action + action por turno, ataque vs DV, daño - SP, critical injuries, wound states, death save).
 
 Si el jugador no tiene personaje, ofrece `/crear-personaje` y no avances la trama.

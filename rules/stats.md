@@ -30,5 +30,6 @@ Si no hay skill relevante: 1d10 + Stat vs DV. El GM puede pedir stat puro para r
 
 ## Creación (Complete Package)
 - **62 puntos** para distribuir entre los 10 stats (min 2, max 8).
+- **Opción de personajes más poderosos:** 80 puntos para distribuir (min 2, max 8 por stat). Usar con acuerdo del GM.
 - Ningún stat puede ser menor de 2 ni mayor de 8.
 - **Difficult skills** cuestan 2 puntos por nivel en creación.

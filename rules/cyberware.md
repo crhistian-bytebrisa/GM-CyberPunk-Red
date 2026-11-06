@@ -7,6 +7,21 @@
 - A menor Humanity, más inestable. El GM puede pedir tiradas de EMP/COOL para resistir impulsos.
 - **Cyberpsychos** son antagonistas icónicos (MaxTac los caza).
 
+### Regla oficial de máximo de Humanity
+- **Cada pieza de cyberware reduce el máximo de Humanity en 2.**
+- **Borgware reduce el máximo en 4.**
+- **Cyberware con 0 HL en instalación NO reduce el máximo.**
+- El máximo solo se recupera **removiendo el cyberware**.
+- La terapia recupera Humanity perdida (2d6 por 500eb, 4d6 por 1000eb), pero **NO recupera el máximo**.
+
+### Reducir HL: reglas oficiales
+- **No existe regla oficial para "crear" cyberware que consuma menos HL.** El HL es un valor fijo por implante (preset en creación, se tira dado después).
+- La única forma de reducir HL es:
+  1. **Remover el cyberware** (recupera el máximo).
+  2. **Elegir cyberware con HL bajo** (0 HL para moda/cosméticos).
+  3. **Cyber Integration** (regla homebrew de "Alternative Medtech", no oficial): reduce HL mediante integración neural. Requiere Tech con Surgery 4+, DV 20 (borgware DV 24), costo 2x del implante en materiales.
+- **Terapia** recupera Humanity perdida pero no el máximo.
+
 ## Tipos de cyberware
 
 ### Modas (Fashionware)
@@ -69,25 +84,27 @@
 | Cyberweapon (brazo) | Cyberweapon | 5-6 | Arma implantada en brazo | 5000-10000 eb |
 | Moda (Fashionware) | Fashionware | 1-2 | Cosmético, bajo HL | 500-2000 eb |
 
-## Cálculo de HL para creación de implantes
+## Cálculo de HL para creación de implantes (HOUSE RULE — no oficial)
 
-### Fórmula base
+> ⚠️ **Esta sección es una regla casera (house rule), NO una regla oficial de Cyberpunk Red.** En las reglas oficiales, el HL es un **valor fijo por implante** (preset en creación, se tira dado después). Esta fórmula es una invención del sistema para permitir la creación de implantes personalizados. Usar con discreción del GM.
+
+### Fórmula base (house rule)
 **HL = Tipo de implante + Complejidad + Materiales + Calibración**
 
-### Factores que reducen HL
+### Factores que reducen HL (house rule)
 1. **Diseño modular:** Combinar múltiples funciones en un solo chip reduce HL en 1-2 puntos.
 2. **Bio-compatibilidad:** Usar materiales orgánicos en lugar de mecánicos reduce HL en 1-2 puntos.
 3. **Firmware optimizado:** Un firmware bien diseñado reduce la "carga neural" en 1 punto.
 4. **Calibración personalizada:** Ajustar el implante a la firma neural del usuario reduce HL en 1 punto.
 5. **Implantes "pasivos":** Implantes que no requieren procesamiento activo tienen HL más bajo (0-1).
 
-### Factores que aumentan HL
+### Factores que aumentan HL (house rule)
 1. **Complejidad:** Implantes con más funciones tienen HL más alto.
 2. **Materiales de baja calidad:** Materiales baratos aumentan HL.
 3. **Firmware mal diseñado:** Firmware corrupto o ineficiente aumenta HL.
 4. **Calibración incorrecta:** Implantes no calibrados aumentan HL.
 
-### Ejemplo de cálculo
+### Ejemplo de cálculo (house rule)
 **Coprocesador eficiente (HL 1):**
 - Tipo (coprocesador): HL 2
 - Complejidad (básico): HL 0

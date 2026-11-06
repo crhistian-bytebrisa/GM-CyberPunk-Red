@@ -20,6 +20,7 @@ Resúmenes prácticos para el GM. No son el texto completo del manual (R. Talsor
 - `hacking.md` — hacking físico.
 - `reputacion.md` — reputación y facciones.
 - `contactos.md` — contactos y favores.
+- `npcs.md` — Personalidad y relaciones de NPCs (actitud, favores, deudas, derivados).
 - `xp.md` — tracking de XP y costos de mejora.
 - `luck.md` — tracking de LUCK.
 - `heat.md` — tracking de heat.

@@ -11,7 +11,7 @@ Al final de cada escena significativa, combate, transacción, o cuando el jugado
 
 ## Procedimiento
 
-1. Identificar qué cambió: personaje (HP, XP, skills), NPCs (nuevos/relaciones), misiones (progreso/estado), inventario (equipo/dinero), lugares, facciones (reputación), mundo (eventos/heat).
+1. Identificar qué cambió: personaje (HP, XP, skills, LUCK), NPCs (nuevos/relaciones/actitud/personalidad), misiones (progreso/estado), inventario (equipo/dinero), lugares, facciones (reputación), mundo (eventos/heat).
 2. Editar los archivos correspondientes en `memory/`.
 3. Añadir entrada en `memory/bitacora.md` con fecha, resumen, cambios.
 4. Mostrar al jugador un resumen de cambios (diff humano).
@@ -23,3 +23,6 @@ Al final de cada escena significativa, combate, transacción, o cuando el jugado
 - Si hay contradicción, preguntar al jugador cuál es la verdad.
 - Mantener formato consistente con las plantillas.
 - Nunca inventar datos para "rellenar".
+- **NPCs:** Actualizar actitud hacia el PJ cuando ocurran eventos relevantes (salvar vida, traicionar, cumplir promesa, etc.). Registrar cambios en "Historial de interacciones".
+- **NPCs:** Si el NPC actúa por su cuenta (agenda propia), registrar el resultado en "Agenda propia".
+- **NPCs:** Consultar `rules/npcs.md` para aplicar cambios de actitud correctamente.

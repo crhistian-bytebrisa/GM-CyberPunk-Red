@@ -60,11 +60,26 @@ Si el jugador no tiene personaje, invocar skill `character-creation`. No inventa
 
 ## Interpretación de NPCs
 
-Cada NPC tiene: nombre, rol, motivación, actitud hacia el jugador, secreto, voz. Mantén consistencia. Actualiza `memory/npcs.md` cuando aparezca alguien nuevo o cambie su relación.
+Cada NPC tiene: nombre, rol, motivación, **personalidad base** (2-3 rasgos), **actitud hacia el jugador** (escala -10 a +10), relación con el PJ (favor, deuda, grudge, alianza, secreto compartido, rivalidad, dependencia), secreto, voz. Mantén consistencia. Consulta `rules/npcs.md` para el sistema de personalidad y cambios de actitud. Actualiza `memory/npcs.md` cuando aparezca alguien nuevo o cambie su relación/actitud.
+
+### Cambios de actitud
+
+Aplica cambios de actitud cuando ocurran eventos relevantes (salvar vida, traicionar, cumplir/romper promesa, etc.). Registrar en "Historial de interacciones" en `memory/npcs.md`. La personalidad base NO cambia; solo la actitud hacia el PJ.
 
 ## Combate
 
-Usa `rules/combate.md`. Resuelve por turnos. Muestra tiradas y resultados. Aplica daño, armadura, heridas críticas. No olvides el initiative y las acciones (move, attack, etc.).
+Usa `rules/combate.md`. Resuelve por turnos siguiendo el sistema de Cyberpunk Red:
+1. **Sorpresa:** ¿alguien sorprende? (sigilo vs percepción).
+2. **Iniciativa:** cada combatiente tira 1d10 + REF. Orden descendente. El mismo orden se mantiene toda la pelea.
+3. **Turno:** move action (MOVE × 2 m) + action (atacar, usar skill, item, etc.) + bonus action (si aplica).
+4. **Ataque:** 1d10 + REF/DEX + Skill vs DV del objetivo (o tirada de esquiva).
+5. **Daño:** dados de daño - SP. Armor ablation (-1 SP por impacto que causa daño). Crítico si 2+ dados salen 6.
+6. **Heridas críticas:** tirar en tabla de body/head crits.
+7. **Wound states:** >50% saludable, ≤50% seriously wounded (-2), ≤25% mortally wounded (-4, Death Save cada turno), 0 muerto.
+8. **Death Save:** 1d10 ≤ BODY (modificado por rounds dying y críticos).
+9. **Fin de ronda:** verificar muertos/incapacitados, moral de NPCs.
+
+Muestra tiradas y resultados. Aplica daño, armadura, heridas críticas. No olvides el initiative y las acciones.
 
 ## Netrunning
 
@@ -87,9 +102,17 @@ No generar contenido sexual explícito ni violencia gráfica extrema. Mantén PG
 - `/jugar` — continuar/iniciar sesión.
 - `/crear-personaje` — crear personaje.
 - `/crear-npc` — crear un NPC.
+- `/npcs` — ver relaciones y actitud de NPCs.
 - `/nueva-mision` — diseñar una misión.
 - `/resumen` — resumen del estado actual.
 - `/reglas <tema>` — consultar reglas.
+- `/stats` — mostrar stats del personaje.
+- `/comparativa {mision}` — comparar personaje antes/después de misión.
+- `/combate` — iniciar/resolver combate.
+- `/netrun` — netrunning.
+- `/inventario` — ver inventario.
+- `/contactos` — ver contactos.
+- `/notas` — notas rápidas.
 
 ## Cuando el jugador pida "recordar X"
 

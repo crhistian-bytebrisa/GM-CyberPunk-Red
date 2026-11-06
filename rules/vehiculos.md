@@ -2,17 +2,17 @@
 
 ## Tipos de vehículos
 
-| Vehículo | Velocidad | Armadura (SP) | Pasajeros | Precio | Notas |
-|---|---|---|---|---|---|
-| Motocicleta | 80 km/h | SP 5 | 1-2 | 2000-5000 eb | Rápida, maniobrable, frágil |
-| Auto compacto | 120 km/h | SP 8 | 2-4 | 5000-10000 eb | Económico, común |
-| Auto deportivo | 180 km/h | SP 6 | 2 | 15000-30000 eb | Rápido, frágil |
-| SUV blindado | 100 km/h | SP 12 | 4-6 | 20000-40000 eb | Resistente, pesado |
-| Furgoneta | 90 km/h | SP 8 | 6-8 | 8000-15000 eb | Espaciosa, común |
-| Camión | 80 km/h | SP 10 | 2-3 | 15000-30000 eb | Carga pesada |
-| Helicóptero | 200 km/h | SP 6 | 2-4 | 100000-200000 eb | Aéreo, caro |
-| Drone de vigilancia | 60 km/h | SP 3 | 0 | 2000-5000 eb | Remoto, sin piloto |
-| Drone de combate | 80 km/h | SP 5 | 0 | 5000-15000 eb | Remoto, armado |
+| Vehículo | Velocidad | Armadura (SP) | HP | Pasajeros | Precio | Notas |
+|---|---|---|---|---|---|---|
+| Motocicleta | 80 km/h | SP 5 | 30 | 1-2 | 2000-5000 eb | Rápida, maniobrable, frágil |
+| Auto compacto | 120 km/h | SP 8 | 50 | 2-4 | 5000-10000 eb | Económico, común |
+| Auto deportivo | 180 km/h | SP 6 | 40 | 2 | 15000-30000 eb | Rápido, frágil |
+| SUV blindado | 100 km/h | SP 12 | 80 | 4-6 | 20000-40000 eb | Resistente, pesado |
+| Furgoneta | 90 km/h | SP 8 | 60 | 6-8 | 8000-15000 eb | Espaciosa, común |
+| Camión | 80 km/h | SP 10 | 70 | 2-3 | 15000-30000 eb | Carga pesada |
+| Helicóptero | 200 km/h | SP 6 | 40 | 2-4 | 100000-200000 eb | Aéreo, caro |
+| Drone de vigilancia | 60 km/h | SP 3 | 15 | 0 | 2000-5000 eb | Remoto, sin piloto |
+| Drone de combate | 80 km/h | SP 5 | 25 | 0 | 5000-15000 eb | Remoto, armado |
 
 ## Conducción
 - **Tirada:** 1d10 + REF + Driving/Pilot vs DV.
@@ -22,8 +22,8 @@
 ## Combate vehicular
 - **Ataque:** 1d10 + REF + Skill de arma vs DV del objetivo.
 - **Daño:** Igual que combate a pie, pero el vehículo tiene HP propio.
-- **HP del vehículo:** BODY × 10 + 20 (base).
-- **Destrucción:** Si HP ≤ 0, el vehículo queda inutilizado.
+- **HP del vehículo:** Varía según el tipo (ver tabla). Base: BODY × 10 + 20.
+- **Destrucción:** Si HP ≤ 0, el vehículo queda inutilizado. Si HP ≤ -10, el vehículo explota (daño 6d6 a todos en 10m).
 
 ## Reglas para el GM
 - Los vehículos son caros y difíciles de mantener.
